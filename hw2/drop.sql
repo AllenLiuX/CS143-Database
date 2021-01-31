@@ -1,0 +1,4 @@
+DROP TABLE Employee;
+DROP TABLE Work;
+DROP TABLE Company;
+DROP TABLE Manage;
