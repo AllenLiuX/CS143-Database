@@ -8,13 +8,13 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/project1c.css" rel="stylesheet">
+    <link href="css/project2.css?v=2" rel="stylesheet">
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header navbar-defalt">
-            <a class="navbar-brand" href="index.php">CS143 DataBase Query System (Demo)</a>
+            <a class="navbar-brand" href="index.php">CS143 DataBase Query System</a>
         </div>
     </div>
 </nav>
@@ -22,11 +22,13 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h3><b> Searching Page :</b></h3>
-            <hr>
-            <label for="search_input">Search:</label>
+            <div class='content'>
+            <h2><b>Searching Page</b></h2>
+                <br>
+<!--            <hr>-->
+<!--            <h3 for="search_input">Search for Movie or Actor:</h3>-->
             <form class="form-group" method ="GET" id="usrform">
-                <input type="text" id="search_input"class="form-control" placeholder="Search..." name="result"><br>
+                <input type="text" id="search_input"class="form-control" placeholder="Search for Movie or Actor..." name="result"><br>
                 <input type="submit" value="Click Me!"class="btn btn-default" style="margin-bottom:10px">
             </form>
             <!--php query start from here -->
@@ -63,7 +65,8 @@
                     exit(1);
                 }
 
-                $result = "<table class=\"table\"><thead><tr><th scope=\"col\">Name</th><th scope=\"col\">Date of Birth</th></tr></thead>";
+                $result = "<h2>Matched Actors</h2>";
+                $result .= "<table class=\"table\"><thead><tr><th scope=\"col\">Name</th><th scope=\"col\">Date of Birth</th></tr></thead>";
                 $result .= "<tbody>";
                 while($row = $rs->fetch_assoc()) {
                     $result .= "<tr>";
@@ -72,7 +75,6 @@
                     $result .= "</tr>";
                 }
                 $result .= "</tbody></table><br/><br/>";
-                echo "<h2>Matched Actors</h2>";
                 echo $result;
 
                 // search for movies
@@ -104,7 +106,7 @@
                     $result .= "<td>".$row['year']."</td>";
                     $result .= "</tr>";
                 }
-                $result .= "</tbody></table><br/><br/>";
+                $result .= "</tbody></table><br/><br/></div>";
                 echo "<h2>Matched Movies</h2>";
                 echo $result;
 
@@ -116,5 +118,10 @@
         </div>
     </div>
 </div>
+    <footer>
+        <div class="container" id="foot-cont">
+            <p id='foo' class="m-0 text-center text-black-50">@Vincent Liu 2020. Author: Wenxuan Liu(Vincent) Powered by HTML&CSS&PHP with Apache Ubuntu Mysql server</p>
+        </div>
+    </footer>
 </body>
 </html>

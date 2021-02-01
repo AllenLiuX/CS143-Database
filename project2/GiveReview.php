@@ -9,12 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/project1c.css" rel="stylesheet">
+    <link href="css/project2.css" rel="stylesheet">
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header navbar-defalt">
-            <a class="navbar-brand" href="index.php">CS143 DataBase Query System (Demo)</a>
+            <a class="navbar-brand" href="index.php">CS143 DataBase Query System</a>
         </div>
     </div>
 </nav>
@@ -22,6 +22,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="content">
             <?php
             $MovieID = $_GET["MovieID"];
             $viewer = $_GET["viewer"];
@@ -95,7 +96,13 @@
             }
             ?>
         </div>
+        </div>
     </div>
 </div>
+<footer>
+    <div class="container" id="foot-cont">
+        <p id='foo' class="m-0 text-center text-black-50">@Vincent Liu 2020. Author: Wenxuan Liu(Vincent) Powered by HTML&CSS&PHP with Apache Ubuntu Mysql server</p>
+    </div>
+</footer>
 </body>
 </html>
