@@ -1,0 +1,1 @@
+SELECT count(city) FROM (SELECT city FROM Affiliation WHERE name="University of California" group by city) C;

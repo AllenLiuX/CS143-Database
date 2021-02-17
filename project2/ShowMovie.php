@@ -182,7 +182,7 @@
                 ?>
                 <hr>
                 <label for="search_input">Search:</label>
-                <form class="form-group" action="search.php" method ="GET" id="usrform">
+                <form class="form-group" action="index.php" method ="GET" id="usrform">
                     <input type="text" id="search_input"class="form-control" placeholder="Search..." name="result"><br>
                     <input type="submit" value="Click Me!" class="btn btn-default" style="margin-bottom:10px">
                 </form>

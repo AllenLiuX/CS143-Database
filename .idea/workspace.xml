@@ -1,8 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0969bc26-6ced-4f39-91e3-795565425656" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/recursive/load.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/recursive/recursive.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/load.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/query.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/temp.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/test.del" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/test2.del" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2/GiveReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/project2/GiveReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2/ShowMovie.php" beforeDir="false" afterPath="$PROJECT_DIR$/project2/ShowMovie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2/css/pics/wall2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project2/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="1232e5f0-ba97-41ce-a87a-86572565f943" />
+  <component name="ProjectId" id="1o6JfR3qQMPC9zbE3K6wTa06Kcd" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/recursive" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0969bc26-6ced-4f39-91e3-795565425656" name="Default Changelist" comment="" />
+      <created>1612601209640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612601209640</updated>
+      <workItem from="1612601210728" duration="1545000" />
+      <workItem from="1612609349191" duration="2153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2288" y="371" key="#SQL_Dialects" timestamp="1612601947973">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2288" y="371" key="#SQL_Dialects/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1612601947973" />
+    <state x="2480" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612601974001">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2480" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1612601974001" />
   </component>
 </project>

@@ -70,8 +70,7 @@
                     </select>
                 </div>
                 <div class="form-froup">
-                  <textarea class="form-control" name="comment" rows="5"  placeholder="no more than 500 characters" >
-                  </textarea><br>
+                  <textarea class="form-control" name="comment" rows="5" placeholder="no more than 500 characters"></textarea><br>
                 </div>
                 <button type="submit" class="btn btn-default">Rating it!</button>
             </form>

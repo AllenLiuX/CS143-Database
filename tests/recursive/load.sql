@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE '/home/cs143/shared/tests/recursive/parent.del' INTO TABLE Parent FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"';

@@ -102,7 +102,7 @@
                 $result .= "<tbody>";
                 while($row = $rs->fetch_assoc()) {
                     $result .= "<tr>";
-                    $result .= "<td><a href=\"browse1.php?id=".$row['id']."\">".$row['title']."</a></td>";
+                    $result .= "<td><a href=\"ShowMovie.php?id=".$row['id']."\">".$row['title']."</a></td>";
                     $result .= "<td>".$row['year']."</td>";
                     $result .= "</tr>";
                 }
